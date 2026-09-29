@@ -1,16 +1,42 @@
-# fad_task_app
+# Task Management App
 
-A new Flutter project.
+A simple and clean Task Management App built with Flutter.
 
-## Getting Started
+This project was developed as a Flutter UI challenge with a focus on clean UI, responsive layout, reusable widgets, and proper project structure.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Show task title and description.
+- Display task completion status.
+- Mark pending tasks as completed.
+- Responsive layout for different screen sizes.
+- Clean and organized Flutter project structure.
+- Reusable widgets for better code organization.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Task Management App](screenshots/task.png)
+
+## Project Structure
+
+```text
+lib/
+├── core/
+│   └── theme/
+│       ├── app_colors.dart
+│       └── app_text_styles.dart
+│
+├── data/
+│   ├── models/
+│   │   └── task_model.dart
+│   └── tasks_data.dart
+│
+└── features/
+    └── tasks/
+        ├── screens/
+        │   └── home_screen.dart
+        │
+        └── widgets/
+            ├── home_header.dart
+            ├── tasks_list.dart
+            └── task_card.dart
