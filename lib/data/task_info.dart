@@ -4,18 +4,18 @@ import 'models/task_model.dart';
 final List<TaskModel> tasks = [
   TaskModel(
     id: 1,
-    title: 'Complete Flutter Challenge',
-    description: 'Finish the assigned task',
+    title: 'Buy groceries',
+    description: 'Get milk, bread, eggs, and fresh vegetables.',
   ),
   TaskModel(
     id: 2,
-    title: 'Read Flutter Documentation',
-    description: 'Review Flutter best practices',
+    title: 'Go for a walk',
+    description: 'Take a 30-minute walk in the evening.',
     isCompleted: true,
   ),
   TaskModel(
     id: 3,
-    title: 'Build Task Screen',
-    description: 'Create the task card UI',
+    title: 'Clean the apartment',
+    description: 'Organize the rooms and clean the living area.',
   ),
 ];

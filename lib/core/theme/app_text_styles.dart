@@ -1,45 +1,48 @@
-import 'dart:ui';
-
+import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app_colors.dart';
 
 class AppTextStyles {
-  static TextStyle appBarTitle = TextStyle(
-    fontSize: 20.sp,
+  static TextStyle get appBarTitle => TextStyle(
+    fontSize: 24.sp,
     fontWeight: FontWeight.w600,
-    color: AppColors.textPrimary,
+    color: Colors.white,
   );
 
-  static TextStyle screenTitle = TextStyle(
-    fontSize: 24.sp,
+  static TextStyle get screenTitle => TextStyle(
+    fontSize: 22.sp,
     fontWeight: FontWeight.w700,
     color: AppColors.textPrimary,
   );
 
-  static TextStyle subtitle = TextStyle(
-    fontSize: 14.sp,
+  static TextStyle get subtitle => TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
   );
 
-  static TextStyle taskTitle = TextStyle(
+  static TextStyle get taskTitle => TextStyle(
     fontSize: 17.sp,
     fontWeight: FontWeight.w600,
     color: AppColors.textPrimary,
   );
 
-  static TextStyle taskDescription = TextStyle(
+  static TextStyle get taskDescription => TextStyle(
     fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
   );
 
-  static TextStyle status = TextStyle(
+  static TextStyle get status => TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeight.w500,
   );
 
-  static TextStyle button = TextStyle(
+  static TextStyle get button => TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeight.w600,
   );
+
+
 }
